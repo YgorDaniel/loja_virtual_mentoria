@@ -7,6 +7,8 @@ public enum StatusContaPagar {
 	VENCIDA("Vencida"),
 	ABERTA("Aberta"),
 	NEGOCIADA("Renegociada"),
+	ALUGUEL("Aluguel"),
+	FUNCIONARIO("Funcionário"),
 	QUITADA("Quitada");
 	
 	private String descricao;
