@@ -38,9 +38,9 @@ public class Produto implements Serializable {
 	private String linkYouTube;
 
 	/** Nota item nota produto - Associar **/
-	@ManyToOne
+	/*@ManyToOne
 	@JoinColumn(name = "nota_item_produto_id", nullable = false, foreignKey = @ForeignKey(value = ConstraintMode.CONSTRAINT, name = "nota_item_produto_fk"))
-	private NotaItemProduto notaItemProduto;
+	private NotaItemProduto notaItemProduto;*/
 
 	@Column(nullable = false)
 	private Double peso;
